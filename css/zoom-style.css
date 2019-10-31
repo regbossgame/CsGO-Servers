@@ -1,0 +1,19 @@
+.zooma {
+ overflow:hidden;
+ width: 130px;
+ height:130px;
+ cursor:pointer;
+  }
+.zooma img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ 
+ }
+ 
+.zooma img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ 
+ }
